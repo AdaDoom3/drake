@@ -1,12 +1,12 @@
-Drake The Runtime Library for gcc-Ada
-=====================================
+Drake: The Runtime Library for gcc-Ada
+======================================
 
 What's this?
 ------------
 
-Drake is a runtime library written in 100% Ada to replace GNAT runtime.
+Drake is a runtime library written completely in Ada to replace the GNAT runtime.
 
-Please, read wiki_ for more information.
+Please, read the wiki_ for more information.
 
 Environment
 -----------
@@ -16,8 +16,8 @@ Environment
 - Linux (from 2.6, x86, 32bit/64bit) [#experimental]_
 - Windows (from XP, x86, 32bit only) [#experimental]_
 
-Depending tools and libraries
------------------------------
+Required tools and libraries
+----------------------------
 
 gcc
  Use gcc_ *instead of GNAT GPL Edition*.
@@ -53,7 +53,7 @@ Read the `build page`_ for details.
 Short example
 -------------
 
-1. Ready source code of a sample application. ::
+1. Prepare the source code of a sample application. ::
    
     $ cat > hello.adb
     with Ada.Text_IO;
@@ -83,9 +83,9 @@ Short example
 Limitations
 -----------
 
-Many many features are unimplemented !!!
+Many many features are unimplemented!
 
-And there are several intentional ACATS violations for usability.
+Note: there are several intentional ACATS violations for usability.
 See `incompatibility features page`_.
 
 .. _gcc: http://gcc.gnu.org/
